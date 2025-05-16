@@ -1,0 +1,38 @@
+.hero > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-card {
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-small);
+}
+
+.title-card > h1 {
+    width: max-content;
+}
+
+#title {
+    font-size: 128px;
+    font-weight: 700;
+}
+
+.card {
+    width: 100%;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-normal);
+    align-items: center;
+}
+
+.card-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}

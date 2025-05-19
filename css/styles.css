@@ -71,6 +71,15 @@ p {
     text-align: justify;
 }
 
+main {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--bg-default);
+}
+
 .hero {
     width: 100%;
     padding: 35px 20px;
@@ -128,4 +137,8 @@ main {
 
 .sources a {
     text-decoration: underline;
+}
+
+em {
+    font-style: italic;
 }
